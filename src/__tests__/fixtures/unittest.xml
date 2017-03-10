@@ -1,0 +1,8 @@
+<unitTest version="1">
+  <file path="src/foo.js">
+    <testCase name="should foo the bar" duration="600">
+      <error message="Assertion error">long Assertion error</error>
+    </testCase>
+    <testCase name="should foofoo the baz" duration="600"/>
+  </file>
+</unitTest>

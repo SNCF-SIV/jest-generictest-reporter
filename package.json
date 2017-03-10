@@ -1,0 +1,35 @@
+{
+  "name": "jest-generictest-reporter",
+  "version": "1.0.0",
+  "description": "A Generic Test report formatter for Jest.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "jest",
+    "generictest",
+    "sonar",
+    "reporter"
+  ],
+  "author": {
+    "name": "Florent Dupont",
+    "email": "florent.dupont@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SNCF-SIV/jest-generictest-reporter.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "xml": "^1.0.1"
+  },
+  "devDependencies": {
+    "jest": "^19.0.2",
+    "libxmljs": "^0.18.4"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "testRegex": "(((\\.|/)(spec))\\.js?$)"
+  }
+}
