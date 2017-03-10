@@ -1,11 +1,11 @@
 class Failure {
-  constructor (message) {
+  constructor (message, detailedMessage) {
     this.failure = [{
+
       _attr: {
-        message,
-        type: 'AssertionError'
+        message
       }
-    }];
+    }, detailedMessage];
   }
 }
 

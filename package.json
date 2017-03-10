@@ -1,6 +1,6 @@
 {
   "name": "jest-generictest-reporter",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "A Generic Test report formatter for Jest.",
   "main": "index.js",
   "scripts": {
