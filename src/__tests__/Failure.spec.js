@@ -7,6 +7,5 @@ it('should render a <failure> with message', () => {
   const result = new Failure(mock, detailedMessage);
   const report = xml(result);
 
-  console.log("REPORT : ", report)
   expect(report).toEqual(`<failure message="${mock}">${detailedMessage}</failure>`);
 });

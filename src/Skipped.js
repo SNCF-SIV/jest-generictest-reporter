@@ -1,13 +1,11 @@
-class Failure {
+class Skipped {
   constructor (message, detailedMessage) {
-
-    this.failure = [{
+    this.skipped = [{
       _attr: {
         message
       }
     }, detailedMessage];
   }
-
 }
 
-module.exports = Failure;
+module.exports = Skipped;

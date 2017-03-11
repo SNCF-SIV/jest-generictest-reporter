@@ -1,0 +1,7 @@
+<file path="src/foo.js">
+  <testCase name="should foo the bar" duration="500">
+    <failure message="Assertion error">Assertion error</failure>
+  </testCase>
+  <testCase name="should foofoo the baz" duration="500">
+  </testCase>
+</file>

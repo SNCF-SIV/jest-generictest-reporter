@@ -1,9 +1,9 @@
-# jest-junit-reporter
-A JUnit test reporter for Jest.
+# jest-generictest-reporter
+A Generic test reporter for Jest.
 
 ## Installation
 ```shell
-$ npm i -D jest-junit-reporter
+$ npm i -D jest-generictest-reporter
 ```
 
 ## Usage
@@ -11,7 +11,7 @@ In your `package.json` file include a `"jest"` config section and specify the `"
 ```json
 {
   "jest": {
-    "testResultsProcessor": "./node_modules/jest-junit-reporter"
+    "testResultsProcessor": "./node_modules/jest-generaltest-reporter"
   }
 }
 ```
@@ -19,7 +19,7 @@ In your `package.json` file include a `"jest"` config section and specify the `"
 
 The reporter will generate a `test-results.xml` file in the project root. If you need to specify a different location(e.g., for a CI server) then set the environment variable `TEST_REPORT_PATH` to the desired location.
 
-The generated file will follow the [Unit Tests Execution Results Report Format](https://docs.sonarqube.org/display/PLUG/Generic+Test+Coverage)
+The generated file will follow the [Test Execution Report Format](https://docs.sonarqube.org/display/SONAR/Generic+Test+Data)
 
 ```xml
 <unitTest version="1">

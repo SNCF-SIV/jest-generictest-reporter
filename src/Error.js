@@ -1,13 +1,11 @@
-class Failure {
+class Error {
   constructor (message, detailedMessage) {
-
-    this.failure = [{
+    this.error = [{
       _attr: {
         message
       }
     }, detailedMessage];
   }
-
 }
 
-module.exports = Failure;
+module.exports = Error;

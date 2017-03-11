@@ -1,0 +1,16 @@
+<testExecutions version="1">
+  <file path="foo/a.c">
+    <testCase name="should foo the bar" duration="500">
+      <failure message="Assertion error">Assertion error</failure>
+    </testCase>
+    <testCase name="should foofoo the baz" duration="500">
+    </testCase>
+  </file>
+  <file path="foo/b.c">
+    <testCase name="should foo the bar" duration="500">
+      <failure message="Assertion error">Assertion error</failure>
+    </testCase>
+    <testCase name="should foofoo the baz" duration="500">
+    </testCase>
+  </file>
+</testExecutions>
